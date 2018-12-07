@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">Group_Portfolio_HW_TEAM_CODING_HEROES</string>
-    <string name="aboutUsText">Street art echo park raw denim paleo, helvetica humblebrag pitchfork irony aesthetic meditation roof party farm-to-table pour-over. Before they sold out succulents dreamcatcher, normcore banjo actually subway tile lomo. Master cleanse wolf synth 8-bit organic normcore subway tile. Irony live-edge sustainable succulents small batch enamel pin yuccie.</string>
+    <string name="aboutUsText">The number one place to find certified android developers. We provide reliably dedicated software development teams who have vast experience in the
+    latest mobile development technologies. Our team is diverse, creative, and highly qualified.  </string>
     <string name="coding_heroes_headerTxt">CODING \nHEROES</string>
+    <string name="our_heroes_text">Our Heroes</string>
     <string name="image_view_profile_description">profile photo goes here</string>
     <string name="personal_name_textview_description">Replace with your own name</string>
     <string name="profile_name">YOUR NAME</string>
@@ -16,4 +18,5 @@ ry-hard disrupt pour-over freegan Brooklyn vape semiotics shaman adaptogen stree
     <string name="profiel_github_button_description">image button that will be used for github links</string>
     <string name="main_groupPhoto_imageview_description">image view that holds the group photo</string>
     <string name="main_imageButton_navDescription">image button for navigation drawer</string>
+
 </resources>
