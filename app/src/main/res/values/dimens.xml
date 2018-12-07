@@ -19,13 +19,13 @@
     <dimen name="rofile_imageviewButton_layout_marginStartLeft">8dp</dimen>
     <dimen name="main_headerText_lineSpace">24sp</dimen>
     <dimen name="main_headerTextSize">36sp</dimen>
-    <dimen name="main_headerTextView_layout_marginStartLeft">16dp</dimen>
+    <dimen name="main_headerTextView_layout_marginStartLeft">20dp</dimen>
     <dimen name="main_headerTextView_layout_marginTop">52dp</dimen>
-    <dimen name="mainSummary_textView_layout_width">277dp</dimen>
+    <dimen name="mainSummary_textView_layout_width">330dp</dimen>
     <dimen name="mainSummary_textView_layout_height">153dp</dimen>
     <dimen name="mainSummary_textView_layout_marginStartLeft">16dp</dimen>
     <dimen name="mainSummary_textView_layout_marginEndRight">8dp</dimen>
-    <dimen name="mainSummary_textView_textSize">12sp</dimen>
+    <dimen name="mainSummary_textView_textSize">14sp</dimen>
     <dimen name="mainGroupPhoto_layout_width">328dp</dimen>
     <dimen name="mainGroupPhoto_layout_height">319dp</dimen>
     <dimen name="mainGroupPhoto_layout_marginStartLeft">16dp</dimen>
