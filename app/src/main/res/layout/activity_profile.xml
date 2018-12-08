@@ -7,6 +7,7 @@
     android:background="@android:color/white"
     tools:context=".NaomyProfileActivity">
 
+
     <ScrollView
         android:id="@+id/profile_scrollview"
         android:layout_width="@dimen/scrollView_layout_width"
