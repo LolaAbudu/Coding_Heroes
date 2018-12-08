@@ -4,12 +4,8 @@
     <string name="aboutUsText">The number one place to find certified
         Android developers for your project . Our team is diverse, creative, and highly qualified.
     We take pride in developing high quality apps for the modern world through design and functionality.
-<<<<<<< HEAD
      Coding Heroes developers deliver all your project developing needs. </string>
-=======
-     Coding Heroes developers deliver all your project devepoling needs. </string>
 
->>>>>>> 40de00df6f63c60774922d14ffb62d0942ba259a
     <string name="coding_heroes_headerTxt">CODING \nHEROES</string>
     <string name="our_heroes_text">Our Heroes</string>
     <string name="image_view_profile_description">profile photo goes here</string>
@@ -52,7 +48,7 @@
         including his own. Before focusing full-time on Android apps, he worked for Google and CERN (home of the LHC particle accelerator)
         as well as various tech startups in NY. She has invaluable experience in all areas related to Android apps from design and coding to acquisition and growth.
         Visit her projects on Git to see her previous work. </string>
-    <string name="fribel_profile_quoteText">"Senior Android Developer"</string>
+    <string name="fribel_profile_quoteText">"I do not fear computers"</string>
     <string name="fribel_profile_name">Fribel Guzman</string>
 
 </resources>
