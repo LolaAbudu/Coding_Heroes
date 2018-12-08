@@ -10,7 +10,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.PopupMenu;
+import android.widget.TextView;
 import android.widget.Toolbar;
 
 public class NaomyProfileActivity extends AppCompatActivity implements PopupMenu.OnMenuItemClickListener {
@@ -20,6 +22,12 @@ public class NaomyProfileActivity extends AppCompatActivity implements PopupMenu
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_naomyprofile);
 
+        ImageView photo = findViewById(R.id.profile_imageview);
+        photo.setImageResource(R.drawable.profile_photo2);
+
+        TextView name = findViewById(R.id.personal_name_header_textview);
+        name.setText("Naomy");
+
         ImageButton btn = findViewById(R.id.github_menu_button);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,6 +36,14 @@ public class NaomyProfileActivity extends AppCompatActivity implements PopupMenu
                 popup.setOnMenuItemClickListener(NaomyProfileActivity.this);
                 popup.inflate(R.menu.popup_menu);
                 popup.show();
+            }
+        });
+
+        ImageButton back = (ImageButton)findViewById(R.id.backNav);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
             }
         });
     }

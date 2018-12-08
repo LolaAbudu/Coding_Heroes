@@ -33,6 +33,14 @@ public class MainActivity extends AppCompatActivity {
                 new NavigationView.OnNavigationItemSelectedListener() {
                     @Override
                     public boolean onNavigationItemSelected(MenuItem menuItem) {
+                        switch (menuItem.getItemId()) {
+                            case android.R.id.home:
+                                mDrawerLayout.openDrawer(GravityCompat.START);
+                                break;
+                            case R.id.nav_manage:
+                                startNaomyActivity();
+                                break;
+                        }
                         // set item as selected to persist highlight
                         menuItem.setChecked(true);
                         // close drawer when item is tapped
@@ -51,9 +59,16 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             case android.R.id.home:
                 mDrawerLayout.openDrawer(GravityCompat.START);
-                return true;
+                break;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+
+    public void startNaomyActivity(){
+
+        Intent naomyActivity = new Intent(MainActivity.this, NaomyProfileActivity.class);
+        startActivity(naomyActivity);
 
     }
 }
