@@ -1,16 +1,11 @@
 <resources>
-<<<<<<< HEAD
 
-    <string name="app_name">Group_Portfolio_HW_TEAM_CODING_HEROES</string>
-    <string name="aboutUsText">The number one place to find certified android developers. We provide reliably dedicated software development teams who have vast experience in the
-    latest mobile development technologies. Our team is diverse, creative, and highly qualified.  </string>
-=======
     <string name="app_name"></string>
     <string name="aboutUsText">The number one place to find certified
         Android developers for your project . Our team is diverse, creative, and highly qualified.
     We take pride in developing high quality apps for the modern world through design and functionality.
      Coding Heroes developers deliver all your project devepoling needs. </string>
->>>>>>> 8697fa6cef3c70d4eff187350f13d222978cece6
+
     <string name="coding_heroes_headerTxt">CODING \nHEROES</string>
     <string name="our_heroes_text">Our Heroes</string>
     <string name="image_view_profile_description">profile photo goes here</string>
