@@ -19,7 +19,8 @@
         android:padding="16dp"
         android:textSize="@dimen/main_headerTextSize"
         app:fontFamily="@font/open_sans_condensed_bold"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:gravity="end" />
 
     <TextView
         android:layout_width="match_parent"

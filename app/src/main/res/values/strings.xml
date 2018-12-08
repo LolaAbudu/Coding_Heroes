@@ -1,18 +1,16 @@
 <resources>
-    <string name="app_name">Group_Portfolio_HW_TEAM_CODING_HEROES</string>
-    <string name="aboutUsText">The number one place to find certified android developers. We provide reliably dedicated software development teams who have vast experience in the
-    latest mobile development technologies. Our team is diverse, creative, and highly qualified.  </string>
+    <string name="app_name"></string>
+    <string name="aboutUsText">The number one place to find certified
+        Android developers for your project . Our team is diverse, creative, and highly qualified.
+    We take pride in developing high quality apps for the modern world through design and functionality.
+     Coding Heroes developers deliver all your project devepoling needs. </string>
     <string name="coding_heroes_headerTxt">CODING \nHEROES</string>
     <string name="our_heroes_text">Our Heroes</string>
     <string name="image_view_profile_description">profile photo goes here</string>
     <string name="personal_name_textview_description">Replace with your own name</string>
     <string name="profile_name">YOUR NAME</string>
     <string name="profile_aboutyou_textview_description">Add your biography</string>
-    <string name="aboutyou_text">Try-hard disrupt pour-over freegan Brooklyn vape semiotics shaman adaptogen street art fixie vice. Iceland pok pok small batch irony mumblecore keytar vaporware. Skateboard wayfarers XOXO sustainable seitan beard yuccie try-hard kitsch pok pok actually.
-
-Try-hard disrupt pour-over freegan Brooklyn vape semiotics shaman adaptogen street art fixie vice. Iceland pok pok small batch irony mumblecore keytar vaporware. Skateboard wayfarers XOXO sustainable seitan beard yuccie try-hard kitsch pok pok actually.
-
-ry-hard disrupt pour-over freegan Brooklyn vape semiotics shaman adaptogen street art fixie vice. Iceland pok pok small batch irony mumblecore keytar vaporware. Skateboard wayfarers XOXO sustainable seitan beard yuccie try-hard kitsch pok pok actually.</string>
+    <string name="aboutyou_text"></string>
     <string name="profile_quote_description">Add a quote here</string>
     <string name="profile_quotetext">My Quote/favorite quote - by someone</string>
     <string name="profiel_github_button_description">image button that will be used for github links</string>
@@ -26,4 +24,16 @@ ry-hard disrupt pour-over freegan Brooklyn vape semiotics shaman adaptogen stree
     <string name="lola_profile_quoteText">"Anything worth doing, is worth doing well!" -by Kike(mother)</string>
     <string name="lola_profile_name">Omolola(Lola) Abudu</string>
 
+    <string name="fribel_github_project1">Project 1</string>
+    <string name="fribel_github_project2">Project 2</string>
+    <string name="fribel_github_project3">Project 3</string>
+    <string name="fribel_aboutMe_textview">Fribel has a background in design and customer service. Strong communications skills and a
+    eye for design.Fribel  has taken over 10 mobile apps from concept to millions of users as the lead engineer of multiple teams in various companies,
+        including his own. Before focusing full-time on Android apps, he worked for Google and CERN (home of the LHC particle accelerator)
+        as well as various tech startups in NY. She has invaluable experience in all areas related to Android apps from design and coding to acquisition and growth.
+        Visit her projects on Git to see her previous work. </string>
+    <string name="fribel_profile_quoteText">"Senior Android Developer"</string>
+    <string name="fribel_profile_name">Fribel Guzman</string>
+
 </resources>
+
