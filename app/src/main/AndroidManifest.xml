@@ -22,6 +22,10 @@
         <activity android:name=".NaomyProfileActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
 
+        <activity android:name=".LolaProfileActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity"></activity>
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
