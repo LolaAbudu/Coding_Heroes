@@ -51,5 +51,13 @@
     <string name="fribel_profile_quoteText">"I do not fear computers"</string>
     <string name="fribel_profile_name">Fribel Guzman</string>
 
-</resources>
 
+    <string name="sheriff_github_project_1">project_1</string>
+    <string name="sheriff_github_project_2">project_2</string>
+    <string name="sheriff_github_project_3">project_3</string>
+    <string name="sheriff_profile_name">Sheriff Ameen</string>
+    <string name="sheriff_aboutMe_textview_description">Hi!</string>
+    <string name="sheriff_profile_quoteText">"True knowledge exists in knowing that you know nothing." -Socrates</string>
+
+
+</resources>
