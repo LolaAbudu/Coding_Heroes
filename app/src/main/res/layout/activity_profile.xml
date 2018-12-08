@@ -7,6 +7,7 @@
     android:background="@android:color/white"
     tools:context=".NaomyProfileActivity">
 
+
     <ScrollView
         android:id="@+id/profile_scrollview"
         android:layout_width="@dimen/scrollView_layout_width"
@@ -46,13 +47,27 @@
                     android:textColor="@color/neon_green"
                     android:textSize="@dimen/nameHeadTextView_textSize"
                     app:fontFamily="@font/open_sans_condensed_bold"
-                    app:layout_constraintEnd_toEndOf="@+id/naomy_profile_imageview"
-                    app:layout_constraintStart_toStartOf="@+id/naomy_profile_imageview"
+                    app:layout_constraintEnd_toEndOf="@+id/profile_imageview"
+                    app:layout_constraintStart_toStartOf="@+id/profile_imageview"
                     app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/position_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/positionText"
+                    android:textSize="14sp"
+                    android:textStyle="italic"
+                    app:fontFamily="@font/open_sans_bold_italic"
+                    android:textColor="@android:color/darker_gray"
+                    app:layout_constraintBottom_toTopOf="@+id/profile_imageview"
+                    app:layout_constraintStart_toStartOf="@+id/personal_name_header_textview"
+                    app:layout_constraintTop_toBottomOf="@+id/personal_name_header_textview" />
 
 
                 <ImageView
-                    android:id="@+id/naomy_profile_imageview"
+                    android:id="@+id/profile_imageview"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/profileImageView_margin"
@@ -82,9 +97,9 @@
                     android:textSize="@dimen/profile_textView_textSize"
                     android:textStyle="italic"
                     app:fontFamily="@font/open_sans_bold_italic"
-                    app:layout_constraintEnd_toEndOf="@+id/naomy_profile_imageview"
-                    app:layout_constraintStart_toStartOf="@+id/naomy_profile_imageview"
-                    app:layout_constraintTop_toBottomOf="@+id/naomy_profile_imageview" />
+                    app:layout_constraintEnd_toEndOf="@+id/profile_imageview"
+                    app:layout_constraintStart_toStartOf="@+id/profile_imageview"
+                    app:layout_constraintTop_toBottomOf="@+id/profile_imageview" />
 
                 <TextView
                     android:id="@+id/profile_aboutyou_textview"
@@ -104,35 +119,12 @@
                     app:layout_constraintHorizontal_bias="0.75"
                     app:layout_constraintStart_toStartOf="@+id/profile_quote_textview"
                     app:layout_constraintTop_toBottomOf="@+id/profile_quote_textview" />
+
+
             </android.support.constraint.ConstraintLayout>
 
         </LinearLayout>
     </ScrollView>
-
-    <ImageButton
-        android:id="@+id/github_menu_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/profile_imageviewButton_layout_marginTop"
-        android:layout_marginEnd="@dimen/profile_imageviewButton_layout_marginEndRight"
-        android:layout_marginRight="@dimen/profile_imageviewButton_layout_marginEndRight"
-        android:background="@android:color/white"
-        android:contentDescription="@string/profiel_github_button_description"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/nav_dots" />
-
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/rofile_imageviewButton_layout_marginStartLeft"
-        android:layout_marginLeft="@dimen/rofile_imageviewButton_layout_marginStartLeft"
-        android:layout_marginTop="@dimen/profile_imageviewButton_layout_marginTop"
-        android:background="@android:color/white"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/nav_arrow" />
 
 
 </android.support.constraint.ConstraintLayout>

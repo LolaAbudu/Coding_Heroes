@@ -56,8 +56,7 @@ public class MainActivity extends AppCompatActivity {
                             case R.id.nav_naomy:
                                 menuItem.setChecked(true);
                                 mDrawerLayout.closeDrawers();
-                                Intent naomy = new Intent(MainActivity.this, NaomyProfileActivity.class);
-                                startActivity(naomy);
+                                startNaomyActivity();
                                 return true;
                         }
                         return false;
@@ -71,10 +70,13 @@ public class MainActivity extends AppCompatActivity {
             case android.R.id.home:
                 mDrawerLayout.openDrawer(GravityCompat.START);
                 return true;
-
         }
         return super.onOptionsItemSelected(item);
+    }
 
+    public void startNaomyActivity(){
+        Intent naomyActivity = new Intent(MainActivity.this, NaomyProfileActivity.class);
+        startActivity(naomyActivity);
     }
 }
 
