@@ -35,12 +35,12 @@ public class MainActivity extends AppCompatActivity {
                     public boolean onNavigationItemSelected(MenuItem menuItem) {
                         switch (menuItem.getItemId()){
 
-//                            case R.id.nav_fribel:
-//                                menuItem.setChecked(true);
-//                                mDrawerLayout.closeDrawers();
-//                                Intent fribel = new Intent(MainActivity.this, FribelsProfileActivity.class);
-//                                startActivity(fribel);
-//                                return true;
+                            case R.id.nav_fribel:
+                                menuItem.setChecked(true);
+                                mDrawerLayout.closeDrawers();
+                                Intent fribel = new Intent(MainActivity.this, Fribelsprofile.class);
+                                startActivity(fribel);
+                                return true;
                             case R.id.nav_lola:
                                 menuItem.setChecked(true);
                                 mDrawerLayout.closeDrawers();
@@ -60,14 +60,6 @@ public class MainActivity extends AppCompatActivity {
                                 startActivity(naomy);
                                 return true;
                         }
-                        // set item as selected to persist highlight
-                        //menuItem.setChecked(true);
-                        // close drawer when item is tapped
-//                        mDrawerLayout.closeDrawers();
-
-                        // Add code here to update the UI based on the item selected
-                        // For example, swap UI fragments here
-
                         return false;
                     }
                 });
