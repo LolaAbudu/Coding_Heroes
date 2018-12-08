@@ -2,14 +2,14 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:id="@+id/project1"
-        android:title="project1"/>
+        android:title="@string/naomyGitHubProject1_name" />
 
     <item android:id="@+id/project2"
-        android:title="project2"/>
+        android:title="@string/naomyGitHubProject2_name"/>
 
     <item android:id="@+id/project3"
-        android:title="project3"/>
+        android:title="@string/naomyGitHubProject3_name"/>
 
     <item android:id="@+id/project4"
-        android:title="project4"/>
+        android:title="@string/naomyGitHubProject4_name"/>
 </menu>
