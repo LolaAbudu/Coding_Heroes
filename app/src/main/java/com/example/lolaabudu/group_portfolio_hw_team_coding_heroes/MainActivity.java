@@ -47,12 +47,12 @@ public class MainActivity extends AppCompatActivity {
                                 Intent lola = new Intent(MainActivity.this, LolaProfileActivity.class);
                                 startActivity(lola);
                                 return true;
-//                            case R.id.nav_sheriff:
-//                                menuItem.setChecked(true);
-//                                mDrawerLayout.closeDrawers();
-//                                Intent sheriff = new Intent(MainActivity.this, SheriffProfileActivity.class);
-//                                startActivity(sheriff);
-//                                return true;
+                            case R.id.nav_sheriff:
+                                menuItem.setChecked(true);
+                                mDrawerLayout.closeDrawers();
+                                Intent sheriff = new Intent(MainActivity.this, SheriffProfileActivity.class);
+                                startActivity(sheriff);
+                                return true;
                             case R.id.nav_naomy:
                                 menuItem.setChecked(true);
                                 mDrawerLayout.closeDrawers();
