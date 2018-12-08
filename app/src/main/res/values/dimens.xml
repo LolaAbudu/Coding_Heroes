@@ -2,7 +2,7 @@
 <resources>
     <dimen name="scrollView_layout_height">0dp</dimen>
     <dimen name="scrollView_layout_width">0dp</dimen>
-    <dimen name="scrollView_layout_marginTop">40dp</dimen>
+    <dimen name="scrollView_layout_marginTop">0dp</dimen>
     <dimen name="scrollView_layout_marginBottom">8dp</dimen>
     <dimen name="nameHeadTextView_layout_marginStartLeft">16dp</dimen>
     <dimen name="nameHeadTextView_layout_marginTop">24dp</dimen>
