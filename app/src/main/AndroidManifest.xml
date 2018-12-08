@@ -19,11 +19,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".NaomyProfileActivity" />
+
+        <activity android:name=".NaomyProfileActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity"></activity>
+
         <activity
             android:name=".LolaProfileActivity"
             android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait" />
+
 
         <meta-data
             android:name="preloaded_fonts"
