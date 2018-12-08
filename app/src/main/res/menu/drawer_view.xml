@@ -6,19 +6,19 @@
 
 
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_fribel"
 
             android:title="fribel" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_lola"
 
             android:title="lola" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_sheriff"
 
             android:title="sheriff" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_naomy"
 
             android:title="naomi" />
     </group>
