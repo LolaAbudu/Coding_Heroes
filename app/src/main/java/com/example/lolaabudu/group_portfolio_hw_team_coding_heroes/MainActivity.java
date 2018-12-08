@@ -35,19 +35,19 @@ public class MainActivity extends AppCompatActivity {
                     public boolean onNavigationItemSelected(MenuItem menuItem) {
                         switch (menuItem.getItemId()){
 
-//                            case R.id.nav_fribel:
-//                                menuItem.setChecked(true);
-//                                mDrawerLayout.closeDrawers();
-//                                Intent fribel = new Intent(MainActivity.this, FribelsProfileActivity.class);
-//                                startActivity(fribel);
-//                                return true;
+                            case R.id.nav_fribel:
+                                menuItem.setChecked(true);
+                                mDrawerLayout.closeDrawers();
+                                Intent fribel = new Intent(MainActivity.this, Fribelsprofile.class);
+                                startActivity(fribel);
+                                return true;
                             case R.id.nav_lola:
                                 menuItem.setChecked(true);
                                 mDrawerLayout.closeDrawers();
                                 Intent lola = new Intent(MainActivity.this, LolaProfileActivity.class);
                                 startActivity(lola);
                                 return true;
-//                            case R.id.nav_sheriff:
+                            case R.id.nav_sheriff:
 //                                menuItem.setChecked(true);
 //                                mDrawerLayout.closeDrawers();
 //                                Intent sheriff = new Intent(MainActivity.this, SheriffProfileActivity.class);
