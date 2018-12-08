@@ -5,17 +5,11 @@ import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.widget.PopupMenu;
 import android.widget.TextView;
-import android.widget.Toolbar;
 
-public class NaomyProfileActivity extends AppCompatActivity implements PopupMenu.OnMenuItemClickListener {
+public class NaomyProfileActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,26 +20,20 @@ public class NaomyProfileActivity extends AppCompatActivity implements PopupMenu
         photo.setImageResource(R.drawable.profile_photo2);
 
         TextView name = findViewById(R.id.personal_name_header_textview);
-        name.setText("Naomy");
+        name.setText(getString(R.string.headerName_naomy));
 
-        ImageButton btn = findViewById(R.id.github_menu_button);
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                PopupMenu popup = new PopupMenu(NaomyProfileActivity.this, v);
-                popup.setOnMenuItemClickListener(NaomyProfileActivity.this);
-                popup.inflate(R.menu.popup_menu);
-                popup.show();
-            }
-        });
+        TextView quote = findViewById(R.id.profile_quote_textview);
+        quote.setText(getString(R.string.quoteText_naomy));
 
-        ImageButton back = (ImageButton)findViewById(R.id.backNav);
-        back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                onBackPressed();
-            }
-        });
+        TextView bio = findViewById(R.id.profile_aboutyou_textview);
+        bio.setText(getString(R.string.bioText_naomy));
+
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.naomy_popup_menu, menu);
+        return super.onCreateOptionsMenu(menu);
     }
 
     public void linkIntent(String link){
@@ -59,7 +47,7 @@ public class NaomyProfileActivity extends AppCompatActivity implements PopupMenu
     }
 
     @Override
-    public boolean onMenuItemClick(MenuItem item) {
+    public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.project1:
                 linkIntent(getString(R.string.naomyGitHubLink1));
@@ -77,6 +65,5 @@ public class NaomyProfileActivity extends AppCompatActivity implements PopupMenu
                 return false;
         }
     }
-
 
 }

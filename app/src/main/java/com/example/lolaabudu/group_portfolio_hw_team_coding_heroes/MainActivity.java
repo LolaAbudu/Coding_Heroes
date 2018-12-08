@@ -33,15 +33,6 @@ public class MainActivity extends AppCompatActivity {
                 new NavigationView.OnNavigationItemSelectedListener() {
                     @Override
                     public boolean onNavigationItemSelected(MenuItem menuItem) {
-<<<<<<< HEAD
-                        switch (menuItem.getItemId()) {
-                            case android.R.id.home:
-                                mDrawerLayout.openDrawer(GravityCompat.START);
-                                break;
-                            case R.id.nav_manage:
-                                startNaomyActivity();
-                                break;
-=======
                         switch (menuItem.getItemId()){
 
 //                            case R.id.nav_fribel:
@@ -65,19 +56,9 @@ public class MainActivity extends AppCompatActivity {
                             case R.id.nav_naomy:
                                 menuItem.setChecked(true);
                                 mDrawerLayout.closeDrawers();
-                                Intent naomy = new Intent(MainActivity.this, NaomyProfileActivity.class);
-                                startActivity(naomy);
+                                startNaomyActivity();
                                 return true;
->>>>>>> 4b9559e1e20ae128ddbd69841996d2be210cb8b3
                         }
-                        // set item as selected to persist highlight
-                        //menuItem.setChecked(true);
-                        // close drawer when item is tapped
-//                        mDrawerLayout.closeDrawers();
-
-                        // Add code here to update the UI based on the item selected
-                        // For example, swap UI fragments here
-
                         return false;
                     }
                 });
@@ -88,22 +69,14 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             case android.R.id.home:
                 mDrawerLayout.openDrawer(GravityCompat.START);
-<<<<<<< HEAD
-                break;
-=======
                 return true;
-
->>>>>>> 4b9559e1e20ae128ddbd69841996d2be210cb8b3
         }
         return super.onOptionsItemSelected(item);
     }
 
-
     public void startNaomyActivity(){
-
         Intent naomyActivity = new Intent(MainActivity.this, NaomyProfileActivity.class);
         startActivity(naomyActivity);
-
     }
 }
 

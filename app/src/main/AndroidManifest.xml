@@ -20,7 +20,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".NaomyProfileActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity"></activity>
 
         <activity android:name=".LolaProfileActivity"
             android:screenOrientation="portrait"
