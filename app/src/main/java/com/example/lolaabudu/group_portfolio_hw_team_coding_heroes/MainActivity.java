@@ -33,15 +33,42 @@ public class MainActivity extends AppCompatActivity {
                 new NavigationView.OnNavigationItemSelectedListener() {
                     @Override
                     public boolean onNavigationItemSelected(MenuItem menuItem) {
+                        switch (menuItem.getItemId()){
+
+//                            case R.id.nav_fribel:
+//                                menuItem.setChecked(true);
+//                                mDrawerLayout.closeDrawers();
+//                                Intent fribel = new Intent(MainActivity.this, FribelsProfileActivity.class);
+//                                startActivity(fribel);
+//                                return true;
+                            case R.id.nav_lola:
+                                menuItem.setChecked(true);
+                                mDrawerLayout.closeDrawers();
+                                Intent lola = new Intent(MainActivity.this, LolaProfileActivity.class);
+                                startActivity(lola);
+                                return true;
+//                            case R.id.nav_sheriff:
+//                                menuItem.setChecked(true);
+//                                mDrawerLayout.closeDrawers();
+//                                Intent sheriff = new Intent(MainActivity.this, SheriffProfileActivity.class);
+//                                startActivity(sheriff);
+//                                return true;
+                            case R.id.nav_naomy:
+                                menuItem.setChecked(true);
+                                mDrawerLayout.closeDrawers();
+                                Intent naomy = new Intent(MainActivity.this, NaomyProfileActivity.class);
+                                startActivity(naomy);
+                                return true;
+                        }
                         // set item as selected to persist highlight
-                        menuItem.setChecked(true);
+                        //menuItem.setChecked(true);
                         // close drawer when item is tapped
-                        mDrawerLayout.closeDrawers();
+//                        mDrawerLayout.closeDrawers();
 
                         // Add code here to update the UI based on the item selected
                         // For example, swap UI fragments here
 
-                        return true;
+                        return false;
                     }
                 });
     }
@@ -52,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
             case android.R.id.home:
                 mDrawerLayout.openDrawer(GravityCompat.START);
                 return true;
+
         }
         return super.onOptionsItemSelected(item);
 
