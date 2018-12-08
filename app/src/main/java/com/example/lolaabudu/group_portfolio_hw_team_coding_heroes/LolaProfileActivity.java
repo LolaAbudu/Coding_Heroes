@@ -12,8 +12,8 @@ import android.widget.Toast;
 
 public class LolaProfileActivity extends AppCompatActivity {
 
-    TextView textView;
-    ImageView imageView;
+//    TextView textView;
+//    ImageView imageView;
     Menu menu;
 
     @Override
