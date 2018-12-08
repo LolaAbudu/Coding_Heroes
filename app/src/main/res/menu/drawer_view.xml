@@ -7,19 +7,18 @@
 
         <item
             android:id="@+id/nav_fribel"
-
-            android:title="fribel" />
+            android:title="Fribel" />
         <item
             android:id="@+id/nav_lola"
 
-            android:title="lola" />
+            android:title="Lola" />
         <item
             android:id="@+id/nav_sheriff"
 
-            android:title="sheriff" />
+            android:title="Sheriff" />
         <item
             android:id="@+id/nav_naomy"
 
-            android:title="naomi" />
+            android:title="Naomi" />
     </group>
 </menu>
