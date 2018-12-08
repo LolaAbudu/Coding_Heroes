@@ -50,7 +50,19 @@
                     app:layout_constraintStart_toStartOf="@+id/lola_profile_imageview"
                     app:layout_constraintTop_toTopOf="parent" />
 
-
+                <TextView
+                    android:id="@+id/position_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/position_layout_marginTop"
+                    android:text="@string/positionText"
+                    android:textSize="@dimen/position_textSize"
+                    android:textStyle="italic"
+                    app:fontFamily="@font/open_sans_bold_italic"
+                    android:textColor="@android:color/darker_gray"
+                    app:layout_constraintBottom_toTopOf="@+id/lola_profile_imageview"
+                    app:layout_constraintStart_toStartOf="@+id/personal_name_header_textview"
+                    app:layout_constraintTop_toBottomOf="@+id/personal_name_header_textview" />
 
 
                 <ImageView
@@ -60,7 +72,6 @@
                     android:layout_marginStart="@dimen/profileImageView_margin"
                     android:layout_marginLeft="@dimen/profileImageView_margin"
                     android:layout_marginTop="@dimen/profileImageView_margin"
-
                     android:layout_marginEnd="@dimen/profileImageView_margin"
                     android:layout_marginRight="@dimen/profileImageView_margin"
                     android:contentDescription="@string/image_view_profile_description"
