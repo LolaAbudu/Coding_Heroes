@@ -11,9 +11,9 @@
     <dimen name="nameHeadTextView_textSize">30sp</dimen>
 
     <dimen name="profileImageView_margin">8dp</dimen>
-    <dimen name="profile_textView_layout_marginStartLeft">16dp</dimen>
+    <dimen name="profile_textView_layout_marginStartLeft">20dp</dimen>
     <dimen name="profile_textView_layout_marginTop">12dp</dimen>
-    <dimen name="profile_textView_layout_marginEndRight">16dp</dimen>
+    <dimen name="profile_textView_layout_marginEndRight">20dp</dimen>
     <dimen name="profile_textView_textSize">18sp</dimen>
     <dimen name="profile_bioTextView_textSize">14sp</dimen>
 
@@ -25,18 +25,22 @@
     <dimen name="main_headerTextSize">36sp</dimen>
     <dimen name="main_headerTextView_layout_marginStartLeft">20dp</dimen>
     <dimen name="main_headerTextView_layout_marginTop">52dp</dimen>
+    <dimen name="main_headerTextView_paddingLeft">0dp</dimen>
 
     <dimen name="mainSummary_textView_layout_width">330dp</dimen>
-    <dimen name="mainSummary_textView_layout_height">153dp</dimen>
-    <dimen name="mainSummary_textView_layout_marginStartLeft">16dp</dimen>
+    <dimen name="mainSummary_textView_layout_height">158dp</dimen>
+    <dimen name="mainSummary_textView_layout_marginStartLeft">0dp</dimen>
     <dimen name="mainSummary_textView_layout_marginEndRight">8dp</dimen>
-    <dimen name="mainSummary_textView_textSize">14sp</dimen>
+    <dimen name="mainSummary_textView_textSize">12sp</dimen>
+    <dimen name="mainSummary_textView_layout_paddingLeft">0dp</dimen>
 
     <dimen name="mainGroupPhoto_layout_width">328dp</dimen>
     <dimen name="mainGroupPhoto_layout_height">319dp</dimen>
-    <dimen name="mainGroupPhoto_layout_marginStartLeft">16dp</dimen>
-    <dimen name="mainGroupPhoto_layout_marginEndRight">3dp</dimen>
+    <dimen name="mainGroupPhoto_layout_marginStartLeft">0dp</dimen>
+    <dimen name="mainGroupPhoto_layout_marginEndRight">0dp</dimen>
 
     <dimen name="position_layout_marginTop">8dp</dimen>
     <dimen name="position_textSize">14sp</dimen>
+
+
 </resources>
