@@ -3,21 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <group android:checkableBehavior="single">
 
-
         <item
             android:id="@+id/nav_fribel"
-            android:title="Fribel" />
+            android:title="@string/drawer_view_title_fribel" />
         <item
             android:id="@+id/nav_lola"
 
-            android:title="Lola" />
+            android:title="@string/drawer_view_title_lola" />
         <item
             android:id="@+id/nav_sheriff"
 
-            android:title="Sheriff" />
+            android:title="@string/drawer_view_title_sheriff" />
         <item
             android:id="@+id/nav_naomy"
 
-            android:title="Naomi" />
+            android:title="@string/drawer_view_title_naomi" />
     </group>
 </menu>
