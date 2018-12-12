@@ -111,7 +111,6 @@
                     android:layout_marginEnd="@dimen/profile_textView_layout_marginEndRight"
                     android:layout_marginRight="@dimen/profile_textView_layout_marginEndRight"
                     android:contentDescription="@string/profile_aboutyou_textview_description"
-                    android:text="@string/aboutyou_text"
                     android:textColor="@color/dark_gray"
                     android:textSize="@dimen/profile_bioTextView_textSize"
                     app:fontFamily="@font/open_sans"

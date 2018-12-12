@@ -2,6 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     >
 
+    <item android:title="@string/lola_github_all_projects" />
 
     <item android:title="@string/lola_github_project_1"
         android:id="@+id/lola_project1" />

@@ -41,7 +41,6 @@
         was meant to break you can be simply be your blessings in disguise.</string>
     <string name="lola_profile_quoteText">"Anything worth doing, is worth doing well!" -by Kike(mother)</string>
     <string name="lola_profile_name">Omolola(Lola) Abudu</string>
-    <!--<string name="lola_personal_name_textview_description">Omolola(Lola) Abudu</string>-->
 
 
     <string name="naomyGitHubLink1">https://github.com/rosannaNaomy/StoryApp</string>
@@ -104,6 +103,7 @@
 
 
     <string name="positionText">Software Developer</string>
+    <string name="lola_github_all_projects">My Projects</string>
 
 
 </resources>
