@@ -45,8 +45,8 @@ public class SheriffProfileActivity extends AppCompatActivity {
             intent.setData( Uri.parse("https://github.com/sheriffameen/Your-App"));
             startActivity(intent);
             Toast.makeText(getApplicationContext(), "Project 3-Mad-Lib-Story selected", Toast.LENGTH_SHORT).show();
-
         }
+
         //this takes you back to the mainActivity
         return super.onOptionsItemSelected(item);
     }
