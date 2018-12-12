@@ -30,17 +30,19 @@
 
             <TextView
                 android:id="@+id/coding_heroes_head"
-                android:layout_width="135dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginStart="@dimen/main_headerTextView_layout_marginStartLeft"
+                android:layout_marginLeft="@dimen/main_headerTextView_layout_marginStartLeft"
+                android:layout_marginTop="@dimen/main_headerTextView_layout_marginTop"
                 android:lineHeight="@dimen/main_headerText_lineSpace"
-                android:paddingLeft="16dp"
+                android:paddingLeft="@dimen/main_headerTextView_paddingLeft"
                 android:text="@string/coding_heroes_headerTxt"
                 android:textColor="@color/neon_green"
                 android:textSize="@dimen/main_headerTextSize"
                 app:fontFamily="@font/open_sans_condensed_bold"
-                app:layout_constraintTop_toBottomOf="@id/toolbar"
-                tools:layout_editor_absoluteX="1dp" />
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/toolbar" />
 
             <TextView
                 android:id="@+id/aboutUsText_mainTextView"
@@ -48,30 +50,27 @@
                 android:layout_height="@dimen/mainSummary_textView_layout_height"
                 android:layout_marginStart="@dimen/mainSummary_textView_layout_marginStartLeft"
                 android:layout_marginLeft="@dimen/mainSummary_textView_layout_marginStartLeft"
-                android:paddingLeft="16dp"
-                android:textStyle="bold"
-                android:layout_marginEnd="@dimen/mainSummary_textView_layout_marginEndRight"
-                android:layout_marginRight="@dimen/mainSummary_textView_layout_marginEndRight"
+                android:paddingLeft="@dimen/mainSummary_textView_layout_paddingLeft"
                 android:text="@string/aboutUsText"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/mainSummary_textView_textSize"
+                android:textStyle="bold"
                 app:fontFamily="@font/open_sans"
+                app:layout_constraintStart_toStartOf="@+id/coding_heroes_head"
                 app:layout_constraintTop_toBottomOf="@+id/coding_heroes_head" />
 
             <ImageView
                 android:id="@+id/main_groupPhoto_imageView"
-                android:layout_width="@dimen/mainGroupPhoto_layout_width"
+                android:layout_width="393dp"
                 android:layout_height="@dimen/mainGroupPhoto_layout_height"
-                android:layout_marginStart="@dimen/mainGroupPhoto_layout_marginStartLeft"
-                android:layout_marginLeft="@dimen/mainGroupPhoto_layout_marginStartLeft"
                 android:layout_marginEnd="@dimen/mainGroupPhoto_layout_marginEndRight"
                 android:layout_marginRight="@dimen/mainGroupPhoto_layout_marginEndRight"
                 android:contentDescription="@string/main_groupPhoto_imageview_description"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintHorizontal_bias="0.75"
                 app:layout_constraintStart_toStartOf="parent"
-                app:srcCompat="@drawable/group_photo" />
+                app:srcCompat="@drawable/group_photo_main" />
         </android.support.constraint.ConstraintLayout>
 
 
