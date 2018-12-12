@@ -17,7 +17,7 @@ public class NaomyProfileActivity extends AppCompatActivity {
         setContentView(R.layout.activity_naomyprofile);
 
         ImageView photo = findViewById(R.id.profile_imageview);
-        photo.setImageResource(R.drawable.profile_photo2);
+        photo.setImageResource(R.drawable.naomy_profile_photo1);
 
         TextView name = findViewById(R.id.personal_name_header_textview);
         name.setText(getString(R.string.headerName_naomy));

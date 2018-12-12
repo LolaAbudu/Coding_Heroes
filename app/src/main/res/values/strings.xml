@@ -12,12 +12,37 @@
     <string name="personal_name_textview_description">Replace with your own name</string>
     <string name="profile_name">YOUR NAME</string>
     <string name="profile_aboutyou_textview_description">Add your biography</string>
-    <string name="aboutyou_text"></string>
     <string name="profile_quote_description">Add a quote here</string>
     <string name="profile_quotetext">My Quote/favorite quote - by someone</string>
     <string name="profiel_github_button_description">image button that will be used for github links</string>
     <string name="main_groupPhoto_imageview_description">image view that holds the group photo</string>
     <string name="main_imageButton_navDescription">image button for navigation drawer</string>
+
+
+    <string name="lola_github_project_1">project_1</string>
+    <string name="lola_github_project_2">project_2</string>
+    <string name="lola_github_project_3">project_3</string>
+    <string name="lola_aboutMe_textview_description">Migrating from Nigeria to United States at the young
+        age of 11, I was forced to adapt to a completely new way of life. Being raised by a single mother
+        of three has taught me a lot about hard work, dedication and perseverance. After obtaining my Bachelor
+        in Psychology and unable to find employment, I decided to become an Emergency Medical Technician.
+        Unfortunately 2 years later, I got injured at the job and could no longer perform the necessary tasks
+        required on the job. About a week after the injury, I found out I was pregnant. Feeling down and unsure
+        of where to go next, I decided to join the workforce. My original plan was to simply find another healthcare
+        job position in which I could somehow utilize my experiences and skills that I had already acquired.
+        Sometimes we are unaware of what direction God chooses to take us and what path he uses to get us there.
+        One day out the blue, I received an email from workforce about a program called Bridge-To-Tech.
+        This program preps students for Tech Bootcamps. Never having done any form of coding, I decided to apply.
+        Fortunately I got accepted and suddenly I realized how much I enjoyed coding. After the 2 month prep,
+        I applied to Pursuit (formerly C4Q) and got accepted. Hence here I am now pursuing something that can
+        potentially change the course of my future for the better. Being a woman and a minority, I would love
+        to bridge that gap and have the opportunity to inspire others who are in my shoes. In conclusion,
+        I would like to say, trust the process of your life and where it takes you. Things that seem like it
+        was meant to break you can be simply be your blessings in disguise.</string>
+    <string name="lola_profile_quoteText">"Anything worth doing, is worth doing well!" -by Kike(mother)</string>
+    <string name="lola_profile_name">Omolola(Lola) Abudu</string>
+    <!--<string name="lola_personal_name_textview_description">Omolola(Lola) Abudu</string>-->
+
 
     <string name="naomyGitHubLink1">https://github.com/rosannaNaomy/StoryApp</string>
     <string name="naomyGitHubLink2">https://github.com/rosannaNaomy/BankTeller</string>
@@ -28,38 +53,29 @@
     <string name="naomyGitHubProject3_name">GitHub project 3</string>
     <string name="naomyGitHubProject4_name">GitHub project 4</string>
 
-    <string name="lola_github_project_1">project_1</string>
-    <string name="lola_github_project_2">project_2</string>
-    <string name="lola_github_project_3">project_3</string>
-    <string name="lola_aboutMe_textview_description">Migrating from Nigeria to United States at the
-        young age of 11, I was forced to adapt to a completely new way of life. Being raised by a
-        single mother of three has taught me a lot about hard work, dedication and perseverance.
-        After obtaining my Bachelor in Psychology and unable to find employment, I decided to become
-        an Emergency Medical Technician. Unfortunately 2 years later, I got injured at the job and
-        could no longer perform the necessary tasks required on the job. About a week after the injury,
-        I found out I was pregnant. Feeling down and unsure of where to go next, I decided to join the
-        workforce. My original plan was to simply find another healthcare job position in which I could
-        somehow utilize my experiences and skills that I had already acquired. Sometimes we are unaware
-        of what direction God chooses to take us and what path he uses to get us there. One day out the
-        blue, I received an email from workforce about a program called Bridge-To-Tech. This program
-        preps students for Tech Bootcamps. Never having done any form of coding, I decided to apply.
-        Fortunately I got accepted and suddenly I realized how much I enjoyed coding. After the 2
-        month prep, I applied to Pursuit (formerly C4Q) and got accepted. Hence here I am now pursuing
-        something that can potentially change the course of my future for the better. Being a woman and
-        a minority, I would love to bridge that gap and have the opportunity to inspire others who are
-        in my shoes. In conclusion, I would like to say, trust the process of your life and where it
-        takes you. Things that seem like it was meant to break you can be simply be your blessings in
-        disguise.</string>
-    <string name="lola_profile_quoteText">"Anything worth doing, is worth doing well!" -by Kike(mother)</string>
-    <string name="lola_profile_name">Omolola(Lola) Abudu</string>
-    <string name="lola_personal_name_textview_description">Omolola(Lola) Abudu</string>
 
     <string name="headerName_naomy">Naomy Portillo</string>
     <string name="quoteText_naomy">"Everything in this world is magic, except for the magician" - by Dr.Ford</string>
-    <string name="bioText_naomy">Naomy Portillo is an Android development Fellow at Pursuit. Enrolled in a Google-funded software engineering program, gaining hands-on experience with Java, Android SDK, Git/GitHub, Data Structures, Algorithms, APIs, tech principles and culture via both team/individual projects, code reviews, and pair programming.
-
-\nBorn and raised in Queens, before Pursuit I was double majoring in design and computer science at Queens College. </string>
-    <string name="positionText">Software Developer</string>
+    <string name="bioText_naomy">\nI’m an Android development Fellow at Pursuit. Bringing about my growth
+        as a woman of intellect to become a leader in tech.
+        \nBorn and raised in Queens, NY, I grew up with hardworking parents who migrated from El Salvador
+        to the US in their teens. Learning about their hardship as they adapted to life in the US sparked my
+        passion for arts and traveling. I enjoy experiencing different cultures and living as people do in
+        there environment. Teaching myself about the world and how we interact as a people. I was exposed to programming
+        when learning about how tech can empower young folks in developing countries. My goal is to inspire
+        and help others gain skills in tech as I also grow in the process.
+        \n
+        \nBefore Pursuit I started work as a freelance designer, specializing in editorial illustration
+        and design, branding and motion graphics. My background in education consisted of design and
+        computer science at Queens College and self- taught programming skills. With a growing passion
+        for programming I took an interest in coding and sought ways to implement code into design.
+        I desired the knowledge of programming concepts and algorithms and how to apply this information
+        to problems in the real world.
+        \n
+        \nI stumbled upon Pursuit, where I am able to supply my full potential
+        by being enrolled in a Google-funded software engineering program. Where I am gaining hands-on
+        experience with Java, Android SDK, Git/GitHub, Data Structures, Algorithms, APIs, tech principles
+        and culture via both team/individual projects, code reviews, and pair programming.\n\n\n</string>
 
     <string name="fribel_github_project1">Project 1</string>
     <string name="fribel_github_project2">Project 2</string>
@@ -80,10 +96,14 @@
     <string name="sheriff_aboutMe_textview_description">Hi!</string>
     <string name="sheriff_profile_quoteText">"True knowledge exists in knowing that you know nothing." -Socrates</string>
 
+
     <string name="drawer_view_title_fribel">Fribel</string>
     <string name="drawer_view_title_lola">Lola</string>
     <string name="drawer_view_title_sheriff">Sheriff</string>
     <string name="drawer_view_title_naomi">Naomi</string>
+
+
+    <string name="positionText">Software Developer</string>
 
 
 </resources>
