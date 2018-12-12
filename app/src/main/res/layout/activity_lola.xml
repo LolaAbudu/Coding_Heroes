@@ -41,7 +41,7 @@
                     android:layout_marginTop="@dimen/nameHeadTextView_layout_marginTop"
                     android:layout_marginEnd="@dimen/nameHeadTextView_layout_marginEndRight"
                     android:layout_marginRight="@dimen/nameHeadTextView_layout_marginEndRight"
-                    android:contentDescription="@string/personal_name_textview_description"
+                    android:contentDescription="@string/lola_profile_name"
                     android:text="@string/lola_profile_name"
                     android:textColor="@color/neon_green"
                     android:textSize="@dimen/nameHeadTextView_textSize"

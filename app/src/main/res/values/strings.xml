@@ -12,12 +12,12 @@
     <string name="personal_name_textview_description">Replace with your own name</string>
     <string name="profile_name">YOUR NAME</string>
     <string name="profile_aboutyou_textview_description">Add your biography</string>
-    <string name="aboutyou_text"></string>
     <string name="profile_quote_description">Add a quote here</string>
     <string name="profile_quotetext">My Quote/favorite quote - by someone</string>
     <string name="profiel_github_button_description">image button that will be used for github links</string>
     <string name="main_groupPhoto_imageview_description">image view that holds the group photo</string>
     <string name="main_imageButton_navDescription">image button for navigation drawer</string>
+
 
     <string name="lola_github_project_1">project_1</string>
     <string name="lola_github_project_2">project_2</string>
@@ -51,6 +51,8 @@
     <string name="naomyGitHubProject2_name">GitHub project 2</string>
     <string name="naomyGitHubProject3_name">GitHub project 3</string>
     <string name="naomyGitHubProject4_name">GitHub project 4</string>
+
+
     <string name="headerName_naomy">Naomy Portillo</string>
     <string name="quoteText_naomy">"Everything in this world is magic, except for the magician" - by Dr.Ford</string>
     <string name="bioText_naomy">\nI’m an Android development Fellow at Pursuit. Bringing about my growth
@@ -114,10 +116,11 @@ Favorite Food (Egusi Soup, Curry Chicken, anything grilled)</string>
     <string name="drawer_view_title_fribel">Fribel</string>
     <string name="drawer_view_title_lola">Lola</string>
     <string name="drawer_view_title_sheriff">Sheriff</string>
-    <string name="drawer_view_title_naomi">Naomi</string>
-
+    <string name="drawer_view_title_naomi">Naomy</string>
 
 
     <string name="positionText">Software Developer</string>
+    <string name="lola_github_all_projects">My Projects</string>
+
 
 </resources>
