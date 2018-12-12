@@ -92,8 +92,33 @@
     <string name="sheriff_github_project_2">project_2</string>
     <string name="sheriff_github_project_3">project_3</string>
     <string name="sheriff_profile_name">Sheriff Ameen</string>
-    <string name="sheriff_aboutMe_textview_description">Hi!</string>
     <string name="sheriff_profile_quoteText">"True knowledge exists in knowing that you know nothing." -Socrates</string>
+    <string name="sheriff_aboutMe_textview_description">
+        Before taking this major step, Sheriff wanted to pursue a career in Sports until he realized his height deficiencies would not allow that.
+        So he decided to pursue a career in Finance. Sheriff realized that he could not work in a high risk, tense environment for the rest of his life
+        so Sheriff looked for more opportunities elsewhere. A friend suggested he should try software development. At first it seemed like a long stretch, being that
+        Sheriff had no core experience, he jumped at the opportunity anyway. Sheriff began his journey to become an Android Software Developer
+        in September 2018 after being 1 of only 144 Fellows chosen out of a total of approximately 1500
+        applicants to one of the most intensive 10-Month long programs New York has to offer: Pursuit.
+        Sheriff hopes one day to be able to combine his love for sports and software development to find the career
+        he can do for a lifetime.\n
+
+List of Favorites:\n
+
+Favorite Soccer Team: Manchester United (yes, they’re struggling right now)\n
+
+Favorite Football Team: New York Giants\n
+
+Favorite Rapper: Jay-Z\n
+
+Favorite Food (Egusi Soup, Curry Chicken, anything grilled)</string>
+
+    <string name="drawer_view_title_fribel">Fribel</string>
+    <string name="drawer_view_title_lola">Lola</string>
+    <string name="drawer_view_title_sheriff">Sheriff</string>
+    <string name="drawer_view_title_naomi">Naomi</string>
+
+
 
 
     <string name="drawer_view_title_fribel">Fribel</string>
