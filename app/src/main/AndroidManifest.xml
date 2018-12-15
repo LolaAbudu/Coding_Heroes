@@ -11,38 +11,41 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity
-            android:name=".MainActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+
+        <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".NaomyProfileActivity"
+        <activity
+            android:name=".MainActivity"
             android:screenOrientation="portrait"
-            android:parentActivityName=".MainActivity"></activity>
-
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".NaomyProfileActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".LolaProfileActivity"
             android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait" />
 
-
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name=".Fribelsprofile"
+        <activity
+            android:name=".Fribelsprofile"
             android:parentActivityName=".MainActivity"
-            android:screenOrientation="portrait"></activity>
-
-        <activity android:name=".SheriffProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SheriffProfileActivity"
             android:parentActivityName=".MainActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
